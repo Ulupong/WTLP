@@ -268,7 +268,6 @@ p {
 #christian-section {
     margin-top: 50px;
     text-align: center;
-
     color:black;
     background-color: #f5c9bd;
     padding: 20px 20px;
@@ -283,7 +282,7 @@ footer {
     padding-top: 8px;
     padding-bottom: 5px;
     margin: 0;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 @media (min-width: 1920px) {
