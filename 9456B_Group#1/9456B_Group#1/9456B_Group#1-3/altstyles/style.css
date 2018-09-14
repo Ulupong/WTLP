@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: arial;
+    color: #86C232;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+main .container{
+    padding-top: 55px;
+}
+
+.inner-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #474B4F;
+    text-align: center;
+    color: black;
+    padding: 10%;
+}
+
+.inner-container h2 {
+    color: #86C232;
+    margin-bottom: 3%;
+    font-size: 55px;
+    font-family: ARIAL;
+    text-transform: lowercase;
+    text-align: right;
+}
+
+.inner-container p {
+    color: #222629;
+}
+
+.left-figure {
+    float: right;
+    margin-right: 25px;
+}
+
+.left-figure img {
+    border: 10px solid #18121E;
+    height: 400px;
+    margin-left: 10%;
+}
+
+#landscape img {
+    width: 400px;
+}
+
+.right-figure {
+    float: right;
+    margin-right: 25px;
+}
+
+.right-figure img {
+    width: 350px;
+    border: 10px solid #18121E;
+    margin-left: 10%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+#img-container {
+    width: 100%;
+    height: 700px;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #222629;
+    position: fixed;
+    padding: 0px 30px;
+    text-transform: lowercase;
+}
+
+#header-container {
+    width: 95%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #EAC67A;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: #EAC67A;
+    color: #18121E;
+}
+
+nav li .current {
+    background-color: #EAC67A;
+    color: #18121E;
+}
+
+#banner {
+    background-color: #6B6E70; 
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color:  whitesmoke;
+}
+
+#banner h2 {
+    font-family: arial;
+    font-size: 100px;
+    line-height: 1;
+    color: #86C232;
+    word-spacing: 2px;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+#advocacy .container {
+    width: 80%;
+    margin-bottom: 90px;
+}
+
+#advocacy h3 {
+    font-family: arial;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    color: #222629;
+    text-transform: lowercase;
+}
+
+#advocacy p {
+    margin-bottom: 25px;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #18121E;
+}
+
+#preview {
+    background-color: #222629;
+    width: 100%;
+    display:inline-block;
+    color: #86C232;
+    text-align: justify;
+}
+
+#preview h3 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: right;
+    font-family: arial;
+    font-size: 55px;
+    color: #86C232;
+    text-transform: lowercase;
+}
+
+#preview p {
+    line-height: 1.5;
+    color: #6B6E70;
+}
+
+#preview .col {
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+}
+
+#preview .col .inner-col {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+#preview .col #button {
+    margin-bottom: 15px;
+    margin-left: 200px;
+    color: #18121E;
+}
+
+#button {
+    padding: 10px 40px;
+    border: none;
+    background-color: #EAC67A;
+    text-transform: lowercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#preview .col #button:hover {
+    background-color: #18121E;
+    color: #EAC67A;
+    transition-duration: 0.3s;
+    opacity: 1.0;
+}
+
+#preview aside {
+    width: 50%;
+    float: right;
+    margin: 60px 0;
+}
+
+#preview aside img {
+    margin-top: 10%;
+    width: 450px;
+    margin-left: 70px;
+    border: 10px solid #EAC67A;
+}
+
+p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#history-section {
+    margin-bottom: 30px;
+}
+
+#history-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#christian-section {
+    text-align: center;
+    background-color: #EAC67A;
+    padding: 20px 20px;
+    margin-top: 10%;
+}
+
+#christian-section h3 {
+    color: #984B43;
+    font-size: 40px;
+    margin-bottom: 3%;
+    text-transform: lowercase;
+}
+
+#christian-section p {
+    color: #18121E;
+}
+
+footer {
+    text-align: center;
+    color: #222629;
+    margin: 0;
+    margin-top: 1%;
+}
+
+@media (min-width: 1920px) {
+    #banner {
+        height: 950px;
+    }
+    
+    #banner h2 {
+        padding-top: 570px;
+        font-size: 135px;
+    }
+    
+    #advocacy p {
+        font-size: 30px;
+        word-spacing: 1px;
+    }
+    
+    #preview .container {
+        margin: 0 100px;
+        font-size: 20px;
+    }
+    
+    .inner-col h3 {
+        font-size: 25px;
+    }
+    
+    #preview aside img {
+        width: 500px;
+    }
+    
+    #preview .col #button {
+        margin-left: 290px;
+        color: white;
+    }
+    
+    p {
+        font-size: 25px;
+        word-spacing: 1px;
+    }
+        
+    #blog-main article h2 {
+        font-size: 30px;
+    }
+    
+    #blog-main article h3 {
+        font-size: 25px;
+    }
+    
+    section h2 {
+        font-size: 40px;
+    }
+    
+    .left-figure img {
+        height: 500px;
+    }
+
+    #landscape img {
+        width: 450px;
+    }
+    
+    .right-figure img {
+        width: 400px;
+    }
+
+    figcaption {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1919px) and (min-width: 1445px) {
+    #banner {
+        height: 900px;
+    }
+    
+    #banner h2 {
+        padding-top: 520px;
+        font-size: 150px;
+    }
+    
+    #advocacy p {
+        font-size: 25px;    
+    }
+    
+    #preview p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 865px){
+    #banner {
+        height: 600px;
+    }
+    
+    #banner h2 {
+        padding-top: 340px;
+        font-size: 90px;
+    }
+    
+    #banner, #preview, #advocacy, footer {
+        width: 100%;
+    }
+    
+    nav {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    header {
+        width: 100%;
+        height: 55px;
+    }
+
+    #header-container {
+        width: 95%;
+    }
+
+    header h1 {
+        margin-top: 20px;
+        font-size: 100%;
+        letter-spacing: 4px;
+    }
+
+    #preview .col {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    
+    #preview .col .inner-col {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    
+    #preview .col #button {
+        margin-bottom: 15px;
+        margin-left: 150px;
+    }
+    
+    #preview aside {
+        margin: 100px 0;
+    }
+
+    #preview aside img {
+        width: 450px;
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+}
